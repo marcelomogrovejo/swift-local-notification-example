@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C6902331EDCF93C0044EA12 /* LocaNotificationsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocaNotificationsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6902331EDCF93C0044EA12 /* LocalNotificationsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotificationsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6902361EDCF93C0044EA12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C6902381EDCF93C0044EA12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C69023B1EDCF93C0044EA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		9C69022A1EDCF93C0044EA12 = {
 			isa = PBXGroup;
 			children = (
-				9C6902351EDCF93C0044EA12 /* LocaNotificationsDemo */,
+				9C6902351EDCF93C0044EA12 /* LocalNotificationsDemo */,
 				9C6902341EDCF93C0044EA12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		9C6902341EDCF93C0044EA12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C6902331EDCF93C0044EA12 /* LocaNotificationsDemo.app */,
+				9C6902331EDCF93C0044EA12 /* LocalNotificationsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C6902351EDCF93C0044EA12 /* LocaNotificationsDemo */ = {
+		9C6902351EDCF93C0044EA12 /* LocalNotificationsDemo */ = {
 			isa = PBXGroup;
 			children = (
 				9C6902361EDCF93C0044EA12 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				9C69023F1EDCF93C0044EA12 /* LaunchScreen.storyboard */,
 				9C6902421EDCF93C0044EA12 /* Info.plist */,
 			);
+			name = LocalNotificationsDemo;
 			path = LocaNotificationsDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C6902321EDCF93C0044EA12 /* LocaNotificationsDemo */ = {
+		9C6902321EDCF93C0044EA12 /* LocalNotificationsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C6902451EDCF93C0044EA12 /* Build configuration list for PBXNativeTarget "LocaNotificationsDemo" */;
+			buildConfigurationList = 9C6902451EDCF93C0044EA12 /* Build configuration list for PBXNativeTarget "LocalNotificationsDemo" */;
 			buildPhases = (
 				9C69022F1EDCF93C0044EA12 /* Sources */,
 				9C6902301EDCF93C0044EA12 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = LocaNotificationsDemo;
+			name = LocalNotificationsDemo;
 			productName = LocaNotificationsDemo;
-			productReference = 9C6902331EDCF93C0044EA12 /* LocaNotificationsDemo.app */;
+			productReference = 9C6902331EDCF93C0044EA12 /* LocalNotificationsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C69022E1EDCF93C0044EA12 /* Build configuration list for PBXProject "LocaNotificationsDemo" */;
+			buildConfigurationList = 9C69022E1EDCF93C0044EA12 /* Build configuration list for PBXProject "LocalNotificationsDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C6902321EDCF93C0044EA12 /* LocaNotificationsDemo */,
+				9C6902321EDCF93C0044EA12 /* LocalNotificationsDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +265,7 @@
 				DEVELOPMENT_TEAM = UZ8Z6MM7C2;
 				INFOPLIST_FILE = LocaNotificationsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mmogrovejo.LocaNotificationsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmogrovejo.LocalNotificationsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,7 +278,7 @@
 				DEVELOPMENT_TEAM = UZ8Z6MM7C2;
 				INFOPLIST_FILE = LocaNotificationsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mmogrovejo.LocaNotificationsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmogrovejo.LocalNotificationsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,7 +287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C69022E1EDCF93C0044EA12 /* Build configuration list for PBXProject "LocaNotificationsDemo" */ = {
+		9C69022E1EDCF93C0044EA12 /* Build configuration list for PBXProject "LocalNotificationsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C6902431EDCF93C0044EA12 /* Debug */,
@@ -295,13 +296,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C6902451EDCF93C0044EA12 /* Build configuration list for PBXNativeTarget "LocaNotificationsDemo" */ = {
+		9C6902451EDCF93C0044EA12 /* Build configuration list for PBXNativeTarget "LocalNotificationsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C6902461EDCF93C0044EA12 /* Debug */,
 				9C6902471EDCF93C0044EA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
